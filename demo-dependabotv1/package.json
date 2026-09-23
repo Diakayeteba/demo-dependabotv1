@@ -10,13 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    // "react": "^19.2.8",
-    // "react-dom": "^19.2.8" 
-    // Injection une dépendance vulnérable pour la démo (axios 0.18.0)
+    "//_note_react_v19": "nouvelle version : react 19.2.8",
+    "//_note_react-dom_v19": "nouvelle version : react 19.2.8",
+  
+    "//_note_demo": "Injection d'une dépendance vulnérable pour la démo (axios 0.18.0)",
+   "//_note_react_v19": "Ancienne version : react 18.3.1",
   "react": "^18.3.1",
   "react-dom": "^18.3.1",
-  // N'utilise pas ^ devant "0.18.0" pour forcer npm et GitHub à détecter cette version exacte de 2018 pleine de failles de sécurité).
-  "axios": "0.18.0"
+ "//_note_axios": "Pas de ^ devant 0.18.0 pour forcer la version exacte de 2018",
+ "axios": "0.18.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

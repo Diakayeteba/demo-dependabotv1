@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div className="bg-dark text-white min-vh-100 d-flex flex-column justify-content-center align-items-center p-4">
+    <div className="p-3 mb-2 bg-primary text-white min-vh-100 d-flex flex-column justify-content-center align-items-center p-4">
       <div className="card bg-secondary text-white border-0 shadow-lg p-4 text-center" style={{ maxWidth: '500px' }}>
         
         {/* Logo officiel Dependabot */}

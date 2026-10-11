@@ -189,4 +189,14 @@ npm test && npm run build
 # Voici deux dependances vulnerable que nous pouvons uttiliser pour les testes de démo:
    
  ** "express": "4.16.0",
-  "lodash": "4.17.10"**
+  "lodash": "4.17.10"
+  "body-parser": "1.18.0"
+   **
+
+   # EN cas de conflit
+   **
+   cas de conflit de PR : Si une PR affiche un conflit,
+  souviens-toi de la commande magique à taper en commentaire sur GitHub :@dependabot rebase 
+
+@dependabot rebase
+   **

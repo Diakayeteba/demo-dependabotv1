@@ -200,3 +200,20 @@ npm test && npm run build
 
 @dependabot rebase
    **
+# Commandes à executé et les étapes à suivres pour l'execution du demo:
+  **
+  Ce qu'il faut préparer dans ton package.json pendant la démo :
+  
+  "dependencies": {
+  "react": "^18.3.1",
+  "react-dom": "^18.3.1",
+  "express": "4.16.0"
+}
+
+Le déroulé exact pour réussir ta démo en 3 étapes :
+ Ajoute "express": "4.16.0" dans ton package.json.
+ La commande clé : Exécute en terminal local pour mettre à jour le lockfile :npm install --legacy-peer-deps
+Commit & Push :git add package.json package-lock.json
+git commit -m "test: ajout dependance express"
+git push origin main 
+**

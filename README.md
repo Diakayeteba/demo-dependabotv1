@@ -185,3 +185,8 @@ npm test && npm run build
 - [GitHub Changelog (14/07/2026) : cooldown par défaut de 3 jours](https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown/)
 - [GitHub Advisory Database : avis concernant axios](https://github.com/advisories?query=axios)
 - [Post-mortem de la compromission npm d'axios (mars 2026)](https://github.com/axios/axios/issues/10636)
+
+# Voici deux dependances vulnerable que nous pouvons uttiliser pour les testes de démo:
+   
+ ** "express": "4.16.0",
+  "lodash": "4.17.10"**
